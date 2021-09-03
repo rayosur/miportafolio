@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<link rel="stylesheet" href="estilos.css">
+	 <title>Portafolio Dinamico - Daniel González Garrido</title> 
+</head>
+<body>
+	
+	<div class="contenedor">
+		<header>
+			<div class="logo">
+				<h1>Daniel González</h1>
+				<p>Desarrollador Web Full Stack</p>
+				<img class="imagenpro" src="./img/Daniel.png" width="50%"  alt="ImagenProgramador"> 
+			</div>
+			
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todos</a>
+				<a href="#">lenguajes</a>
+				<a href="#">daniel</a>
+				</div>
+		</header>
+
+		<section class="grid" id="grid">
+			<div class="item" 
+				 data-categoria="lenguajes"
+				 data-etiquetas="lenguajes me explico"
+				 data-descripcion="hablo sobre mi ">
+				<div class="item-contenido">
+					<img src="img/java.png" alt="">
+				</div>
+			</div>
+			<div class="item" 
+				 data-categoria="daniel"
+				 data-etiquetas="daniel me explico"
+				 data-descripcion="hablo sobre mi ">
+				<div class="item-contenido">
+					<p>🅰🅿🅰🆂🅸🅾🅽🅰🅳🅾del mundo de las tecnologías,<br>
+						 ⭐️mi objetivo es crecer como profesional⭐️. <br>
+						 La programación es mi parte favorita 😍<br>
+						 la cual disfruto y gracias e ella quiero aportar valor a este mundo.<br>
+						  Cuando empiezo un proyecto que me ilusiona doy lo mejor de mi<br>
+						   incluso puedo sorprender con mi creatividad e imaginación👾.</p>
+				</div>
+			</div>
+		
+			
+			<div class="item" 
+				 data-categoria="lenguajes"
+				 data-etiquetas="lenguajes me explico"
+				 data-descripcion="hablo sobre mi ">
+				<div class="item-contenido">
+					<img src="img/php.png" alt="">
+				</div>
+			</div>
+			<div class="item" 
+				 data-categoria="lenguajes"
+				 data-etiquetas="lenguajes me explico"
+				 data-descripcion="hablo sobre mi ">
+				<div class="item-contenido">
+					<img src="img/html.jpg" alt="">
+				</div>
+			</div>
+			<section class="grid" id="grid">
+			<div class="item" 
+				 data-categoria="lenguajes"
+				 data-etiquetas="lenguajes me explico"
+				 data-descripcion="hablo sobre mi ">
+				<div class="item-contenido">
+					<img src="img/java.png" alt="">
+				</div>
+			
+			
+
+
+			
+
+		</section>
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+
+		<footer class="contenedor">
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a href="https://twitter.com/Daniel28674275" target="_blank" class="twitter">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</div>
+			
+				<div class="contenedor-icono">
+					<a href="https://www.vvtutorial.es/" target="_blank" class="instagram">
+						<i class="fab fa-instagram"></i>
+						<p>mi blog</p>
+					</a>
+				</div>
+			</div>
+			<div class="creado-por">
+				<p>Sitio diseñado por <a href="#">Daniel González</a></p>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
